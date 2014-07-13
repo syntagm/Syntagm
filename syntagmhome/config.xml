@@ -18,16 +18,16 @@
  under the License.
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        id        = "io.cordova.helloCordova"
+        id        = "za.co.syntagm.syntagmhome"
         version   = "2.0.0">
-    <name>Hello Cordova</name>
+    <name>SYNapps</name>
 
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A SYNapps demo.
     </description>
 
     <author href="http://cordova.io" email="dev@cordova.apache.org">
-        Apache Cordova Team
+        SYNapps Cordova Team
     </author>
 
     <access origin="*"/>
