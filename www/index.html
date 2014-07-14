@@ -1,450 +1,402 @@
 <!DOCTYPE html>
-<html lang="en">
+<html> 
 <head>
-<meta charset="utf-8">
-<title>SynApps</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Syntagm Research is a dot connecting strategic service provider">
-<meta name="author" content="C S Klopper">
-<link rel="author" href="https://plus.google.com/+Syntagmresearchcc/posts" />
-<link rel="shortcut icon" type="image/x-icon" href="style/images/favicon.png" />
-<link href="style/css/bootstrap.css" rel="stylesheet">
-<link href="style/css/settings.css" rel="stylesheet">
-<link href="style/js/google-code-prettify/prettify.css" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
-<link href="style/css/color/red.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700italic,700,900,900italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
-<link href="style/type/fontello.css" rel="stylesheet">
-<!--[if IE 8]>
-<link rel="stylesheet" type="text/css" href="style/css/ie8.css" media="all" />
-<![endif]-->
+	<title>SYNapps Demo</title>
+<!--Metatags-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="initial-scale = 1, maximum-scale = 1, user-scalable = no, width = device-width" />
+<!--Metatags-->
+
+	<link rel="shortcut icon" href="favicon.png" />
+<!--Styles-->
+	<link href="style/reset.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<link href="style/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="style/jquery.fs.boxer.css" rel="stylesheet" type="text/css" />
+	<link href="style/owl.carousel.css" rel="stylesheet" type="text/css" />
+	<link href="style/style.css" rel="stylesheet" type="text/css" />
+<!--Styles-->
+
+<!--Scripts-->	
+	<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="js/modernizr-2.6.2.min.js" type="text/javascript"></script>
+<!--Scripts-->
 <!--[if lt IE 9]>
-<script src="style/js/html5shiv.js"></script>
+	<script src="js/html5.js"></script>
 <![endif]-->
-
+<!--[if IE]>
+	<style>
+		.timeline li{display:block; -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); opacity: 1;}
+	</style>
+<![endif]-->
 </head>
-<body>
-<div class="body-wrapper">
-  <div id="header" class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container"> <a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".nav-collapse"><i class='icon-menu-1'></i></a> <a class="brand" href="index.html"><img src="style/images/logo.png" width="300" height="150"alt="" /></a>
-        <div class="nav-collapse pull-right collapse">
-          <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-			<li><a href="blog.html">CliCode</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <!-- .nav-collapse --> 
-      </div>
-      <!-- .container --> 
-    </div>
-    <!-- .navbav-inner --> 
-  </div>
-  <!-- .navbar -->
-  
-  <div class="offset"></div>
-  <div class="fullwidthbanner-container revolution">
-    <div class="fullwidthbanner">
-      <ul>
-        <li data-transition="fade"> <img src="style/images/art/slider-bg1.jpg" alt="" />
-          <div class="caption sfl bold" data-x="center" data-y="200" data-speed="500" data-start="100" data-easing="easeOutExpo">Enterprise Grade. Customised. Mobile &QR Solutions</div>
-          <div class="caption sfr lite" data-x="center" data-y="274" data-speed="500" data-start="900" data-easing="easeOutExpo">Quick. Simple. Affordable. Done.</div>
-          <div class="caption sfb" data-x="center" data-y="345" data-speed="900" data-start="1600" data-easing="easeOutExpo"><a href="http://www.syntagm.co.za/contact.html" class="btn btn-blue btn-large">Get in Touch</a></div>
-        </li>
-        <li data-transition="fade"> <img src="style/images/art/slider-transparent.png" style="background-color: #323a45;" alt="" />
-          <div class="caption sfl" data-x="450" data-y="115" data-speed="900" data-start="100" data-easing="easeOutSine"><img src="style/images/art/slider-browser.png" alt="" /></div>
-          <div class="caption sfl" data-x="800" data-y="180" data-speed="900" data-start="900" data-easing="easeOutSine"><img src="style/images/art/slider-tablet.png" alt="" /></div>
-          <div class="caption sfl" data-x="980" data-y="290" data-speed="900" data-start="1600" data-easing="easeOutSine"><img src="style/images/art/slider-mobile.png" alt="" /></div>
-          <div class="caption sfr lite" data-x="35" data-y="180" data-speed="900" data-start="1500" data-easing="easeOutExpo"><strong>New | Qwards</strong></div>
-          <div class="caption sfr lite" data-x="35" data-y="240" data-speed="900" data-start="1800" data-easing="easeOutExpo"><strong><span class="color">Instant</span>Mobile Rewards</strong></div>
-          <div class="caption sfb" data-x="35" data-y="320" data-speed="900" data-start="2100" data-easing="easeOutExpo"><a href="http://www.syntagm.co.za/qward" class="btn btn-green btn-large">TRY online</a></div>
-        </li>
-        <li data-transition="fade"> <img src="style/images/art/slider-bg2.jpg" alt="" />
-          <div class="caption sft" data-x="50" data-y="115" data-speed="900" data-start="100" data-easing="easeOutSine"><img src="style/images/art/slider-back.png" alt="" /></div>
-          <div class="caption fade" data-x="35" data-y="465" data-speed="900" data-start="120" data-easing="easeOutSine"><img src="style/images/art/slider-shadow.png" alt="" /></div>
-          <div class="caption sft" data-x="35" data-y="122" data-speed="900" data-start="800" data-easing="easeOutSine"><img src="style/images/art/slider-middle.png" alt="" /></div>
-          <div class="caption sft" data-x="60" data-y="130" data-speed="900" data-start="1300" data-easing="easeOutSine"><img src="style/images/art/slider-first.png" alt="" /></div>
-          <div class="caption sft bold" data-x="590" data-y="200" data-speed="900" data-start="2000" data-easing="easeOutExpo">Mobilise your business</div>
-          <div class="caption sfr lite" data-x="590" data-y="265" data-speed="900" data-start="2500" data-easing="easeOutExpo">with B2B Applications</div>
-		  <div class="caption sfr lite" data-x="590" data-y="295" data-speed="900" data-start="2500" data-easing="easeOutExpo">and QR campaigns</div>
-          <div class="caption sfb" data-x="590" data-y="340" data-speed="900" data-start="3000" data-easing="easeOutExpo"><a href="http://www.syntagm.co.za/contact.html" class="btn btn-blue btn-large">Contact us Now</a></div>
-        </li>
-        <li data-transition="fade"> <img src="style/images/art/slider-transparent.png" style="background-color: #666361;" alt="" />
-          <div class="caption lfr" data-x="750" data-y="115" data-speed="900" data-start="100" data-easing="easeOutSine"><img src="style/images/art/slider-coffee-cup.png" alt="" /></div>
-          <div class="caption sfl bold" data-x="35" data-y="200" data-speed="900" data-start="1000" data-easing="easeOutExpo">Just sit and relax</div>
-          <div class="caption sfl lite" data-x="35" data-y="265" data-speed="900" data-start="1500" data-easing="easeOutExpo"> while we take care of your brief</div>
-          <div class="caption sfl" data-x="35" data-y="340" data-speed="900" data-start="2000" data-easing="easeOutExpo"><a href="http://www.syntagm.co.za/contact.html" class="btn btn-green btn-large">Ask about Pricing</a></div>
-        </li>
-      </ul>
-      <div class="tp-bannertimer tp-bottom"></div>
-    </div>
-    <!-- /.fullwidthbanner --> 
-  </div>
-  <!-- /.fullwidthbanner-container -->
-  
-  <div class="container inner">
-    <h3 class="section-title">What Do We Provide?</h3>
-    <div class="divide10"></div>
-    <div class="row media-icons">
-      <div class="media span6 rp10"> <i class="icon-lamp large pull-left"></i> 
-        <!--/.pull-left-->
-        <div class="media-body">
-          <h4>Creative Mobile Solutions</h4>
-          <p>With years of experience in Brand Research and strategy development we approach your brief from a different perspective. Yours! </p>
-        </div>
-        <!--/.media-body--> 
-      </div>
-      <!--/.media-->
-      <div class="media span6 lp10"> <i class="icon-rocket large pull-left"></i> 
-        <!--/.pull-left-->
-        <div class="media-body">
-          <h4>Rapid Solution Development</h4>
-          <p>If you need a mobile or QR solution, we can have it running within 48 hours. Terms and Conditions Apply</p>
-        </div>
-        <!--/.media-body--> 
-      </div>
-      <!--/.media-->
-      
-      <div class="media span6 rp10"> <i class="icon-beaker large pull-left"></i> 
-        <!--/.pull-left-->
-        <div class="media-body">
-          <h4>Client-centric Touch</h4>
-          <p>With apps and QR campaigns up and running we actively support the distribution and deployment process on a 24x7 basis currently.</p>
-        </div>
-        <!--/.media-body--> 
-      </div>
-      <!--/.media-->
-      <div class="media span6 lp10"> <i class="icon-award large pull-left"></i> 
-        <!--/.pull-left-->
-        <div class="media-body">
-          <h4>Client Portfolio</h4>
-          <p>We don't show case our solutions because they are proprietary developments. Please note we are using generic mock-ups on this site instead of proprietary client material</p>
-        </div>
-        <!--/.media-body--> 
-      </div>
-      <!--/.media--> 
-    </div>
-    <!--/.row-->
-    
-    <hr />
-    <h3 class="section-title">Typical Pricing | Q1 Valid 2014</h3>
-	<p> Terms & Conditions Apply</p>
-    <div class="pricing row-fluid">
-      <div class="plan span3">
-        <h3>Bronze</h3>
-        <h4><span class="amount"><span>ZAR</span>2 500</span></h4>
-        <div class="features">
-          <ul>
-            <li>within 3 Days</li>
-            <li>Hybrid app or QR code</li>
-            <li>One page/ Once-off</li>
-            <li>Android only</li>
-            <li>No Maintenance</li>
-          </ul>
-        </div>
-        <div class="select">
-          <div> <a href="#" class="btn inverse">Select Plan</a> </div>
-        </div>
-      </div>
-      <!-- /.span3  -->
-      <div class="plan span3">
-        <h3> <span class="featured f1"></span> Silver </h3>
-        <h4><span class="amount"><span>ZAR</span>7 500</span></h4>
-        <div class="features">
-          <ul>
-            <li>7-14 Days</li>
-            <li>Hybrid app or QR solution</li>
-            <li>Multi-page</li>
-            <li>Android or iOS only</li>
-            <li>Low Maintenance</li>
-          </ul>
-          <div class="select">
-            <div> <a href="#" class="btn inverse">Select Plan</a> </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.span3  -->
-      <div class="plan span3">
-        <h3>Gold</h3>
-        <h4><span class="amount"><span>ZAR</span>15 000</span></h4>
-        <div class="features">
-          <ul>
-            <li>Ongoing</li>
-            <li>Hybrid app & xCode framework</li>
-            <li>Multi-page interactive</li>
-            <li>Andriod & iOS certified</li>
-            <li>Enhanced Maintenance</li>
-          </ul>
-          <div class="select">
-            <div> <a href="#" class="btn inverse">Select Plan</a> </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.span3  -->
-      <div class="plan span3">
-        <h3>Platinium</h3>
-        <h4><span class="amount"><span>ZAR</span>SQ</span></h4>
-        <div class="features">
-          <ul>
-            <li>Ongoing</li>
-            <li>Cordova/PG & xCode framework</li>
-            <li>Multi-page interactive</li>
-            <li>Multiple Platforms</li>
-            <li>24x7 Maintenance</li>
-          </ul>
-          <div class="select">
-            <div> <a href="#" class="btn inverse">Select Plan</a> </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.span3  --> 
-    </div>
-    <!-- /.pricing  -->
-    
-    <hr />
-    <div class="row">
-      <div class="span6">
-        <h3 class="section-title">Why Choose Us?</h3>
-        <p>If your company doesn't have B2B mobile apps yet, you could be missing out on alternative work & process management streams.
+<body data-spy="scroll" data-target=".navbar-flat" data-offset="55">
+	<div class="loader">
+		<div class="inner"></div>
+	</div>
+	<!--Welcome Section-->
+	<section id="welcome">
+		<div id="slides">
+			<div class="overlay"></div>
+			<div class="slides-container">
+				<!--Slides-->
+				<img src="images/slides/1.jpg" alt="1">
+				<img src="images/slides/2.jpg" alt="2">
+				<img src="images/slides/3.jpg" alt="3">
+				<!--Slides-->
+			</div>
+			<nav class="slides-navigation">
+				<a href="#" class="next"></a>
+				<a href="#" class="prev"></a>
+			</nav>
+			<div class="welcome-message">
+				<div class="heading">
+					<p>We are SYNapps and CliCode</p>
+					<p class="small">Mobile solutions providers</p>
+				</div>
+				<a href="#home" class="borderBtn scrollto">Read more..</a>
+			</div>
+		</div>
+	</section>
+	<!--Welcome Section-->
+	<!--Navbar Section-->
+	<div class="navbar navbar-flat">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--<a href="#" class="navbar-brand">MENU</a>-->
+			</div>
+			<div class="navbar-collapse collapse">
+				<nav>
+					<ul class="nav navbar-nav">
+						<!--Nav Menu-->
+						<li class="active"><a href="#welcome" class="scrollto">HOME</a></li>
+						<li><a href="#about" class="scrollto">ABOUT</a></li>
+						<li><a href="#skills" class="scrollto">SKILLS</a></li>
+						<li><a href="#experience" class="scrollto">EXPERIENCE</a></li>
+						<li><a href="#portfolio" class="scrollto">PORTFOLIO</a></li>
+						<li><a href="#contact" class="scrollto">CONTACT</a></li>
+						<!--Nav Menu-->
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!--Navbar Section-->
+	<!--Home Section-->
+	<section class="hero firstSec section colored" id="home">
+		<div class="container">
+			<div class="col-xs-6 col-md-4 profilePic">
+				<img src="images/me.jpg" alt="" class="img-circle">
+			</div>
+			<div class="heading">
+				<h1>SYNapps</h1>
+				<h3>Mobile B2B and B2C applications</h3>
+				<!--<a href="" class="borderBtn">DOWNLOAD RESUME</a>-->
+			</div>
+            <div class="heading">
+				<h1>CliCode</h1>
+				<h3>QR Service Providers</h3>
+				<!--<a href="" class="borderBtn">DOWNLOAD RESUME</a>-->
+			</div>
+		</div>
+	</section>
+	<!--Home Section-->
+	<!--Services Section-->
+	<section class="services section" id="about">
+		<div class="container">
+			<div class="divider"></div>
+			<div class="heading">
+				<h2>This is what we do</h2>
+				<h3>We build cross-platform hybrid mobile applications</h3>
+                <p>In simple English that means they work on iOS, Android and the rest</p>
+                <p>It also means they are are written in HTML5 and CSS3 and are therefore simpler, faster and more affordable deployed.</p>
+                <div class="divider"></div>
+                <h3>We create and manage QR campaigns</h3>
+                <p>With shortened url's that open reliably</p>
+                <p>...onto content optimised for multiple devices</p>
+                <p>Tracked and managed professionally</p>
+                <p>and supported with understandable statistics</p>
+                
+			</div>
+			<!--<div class="">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi</p>
+			</div>-->
+			<div class="services-inner hidethis">
+				<!--Service Items-->
+				<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<p class="icon"><i class="heart"></i></p>
+					<h3>UI/UX DESIGN</h3>
+				</div> 
+				<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<p class="icon"><i class="coding"></i></p>
+					<h3>DEVELOPMENT</h3>
+				</div> 
+				<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<p class="icon"><i class="camera"></i></p>
+					<h3>QR CODES</h3>
+				</div> 
+				<div class="service col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<p class="icon"><i class="music"></i></p>
+					<h3>MANAGEMENT</h3>
+				</div> 
+				<!--Service Items-->
+			</div>
+		</div>
+	</section>
+	<!--Services Section-->
+	<!--Skills Section-->
+	<section class="skills section colored" id="skills">
+		<div class="container">
+			<div class="divider"></div>
+			<div class="heading">
+				<h2>TECHNICAL SKILLS</h2>
+			</div>
+			<div id="skills-slide">
+				<!--Skills Items-->
+				<div class="skill">
+					<span class="chart" data-percent="90">
+						<span class="percent"></span>
+					</span>
+					<h4>HTML5</h4>
+					<p>Responsive Design</p>
+				</div>
+				<div class="skill">
+					<span class="chart" data-percent="95">
+						<span class="percent"></span>
+					</span>
+					<h4>Adobe Phonegap</h4>
+					<p>Multiplatform app hosting</p>
+				</div>
+				<div class="skill">
+					<span class="chart" data-percent="75">
+						<span class="percent"></span>
+					</span>
+					<h4>CSS3</h4>
+					<p>Responsive Design</p>
+				</div>
+				<div class="skill">
+					<span class="chart" data-percent="60">
+						<span class="percent"></span>
+					</span>
+					<h4>JQUERY & JQMobile</h4>
+					<p>Mobile Optimisation</p>
+				</div>
+				<div class="skill">
+					<span class="chart" data-percent="80">
+						<span class="percent"></span>
+					</span>
+					<h4>DREAMWEAVER</h4>
+					<p>Cutting Edge Design</p>
+				</div>
+				<div class="skill">
+					<span class="chart" data-percent="75">
+						<span class="percent"></span>
+					</span>
+					<h4>XCODE</h4>
+					<p>iOS Certified Apps</p>
+				</div>
+				<!--Skills Items-->
+			</div>
+		</div>
+	</section>
+	<!--Services Section-->
+	<!--Experience Section-->
+	<section class="experience section" id="experience">
+		<div class="container">
+			<div class="divider"></div>
+			<div class="heading">
+				<h2>FRESH NEWS</h2>
+                <div class="heading">
+				<h2>QR Finds more Traction</h2>
+				<h3>Roger Smolski Reports</h3>
 
-Read more: http://www.entrepreneur.com/article/226270#ixzz2h24SRE1j</p>
-        <div class="divide10"></div>
-        <ul id="myTab" class="nav nav-tabs bm0">
-          <li class="active"><a href="#tab1" data-toggle="tab">ONE</a></li>
-          <li><a href="#tab2" data-toggle="tab">TWO</a></li>
-          <li><a href="#tab3" data-toggle="tab">THREE</a></li>
-        </ul>
-        <!-- /.nav-tabs -->
-        <div id="myTabContent" class="tab-content box">
-          <div class="tab-pane fade in active" id="tab1">
-            <p>We are fast</p>
-            <p>...and affordable</p>
-          </div>
-          <!-- /.tab-pane -->
-          <div class="tab-pane fade" id="tab2">
-            <p>We understand business</p>
-            <p>and customise the solution to fit the challenge</p>
-          </div>
-          <!-- /.tab-pane -->
-          <div class="tab-pane fade" id="tab3">
-            <p>We have experience</p>
-            <p>and use imaginative solutions which our competitors have not even heard of.</p>
-          </div>
-          <!-- /.tab-pane --> 
-        </div>
-        <!-- /.tab-content --> 
-        
-      </div>
-      <!-- /.span6 -->
-      
-      <div class="span6">
-        <h4 class="section-title">SYNapps on Google+</h4>
-        <p>News and views published here</p>
-        <div class="divide10"></div>
-		<!-- Place this tag where you want the widget to render. -->
-<div class="g-page" data-href="//plus.google.com/u/0/115197347185837824229" data-rel="publisher"></div>
-
-
-         <!--<ul class="progress-list">
-          <li>
-            <p>CSS3/HTML5/QR <em>90%</em></p>
-            <div class="progress plain">
-              <div class="bar" style="width: 90%;"></div>
-            </div>
-          </li>
-          <li>
-            <p>jQuery & JQuery Mobile <em>70%</em></p>
-            <div class="progress plain">
-              <div class="bar" style="width: 80%;"></div>
-            </div>
-          </li>
-          <li>
-            <p>Adobe CC & Phonegap<em>85%</em></p>
-            <div class="progress plain">
-              <div class="bar" style="width: 85%;"></div>
-            </div>
-          </li>
-          <li>
-            <p>xCode<em>60%</em></p>
-            <div class="progress plain">
-              <div class="bar" style="width: 50%;"></div>
-            </div>
-          </li>
-        </ul>
-        /.progress-list --> 
-      </div>
-      <!-- /.span6 --> 
-    </div>
-    <!-- /.row --> 
-    
-  </div>
-  <!--/.container -->
-  
-  <div class="dark-wrapper">
-    <div class="container inner">
-      <div class="showbiz-container clients">
-        <div class="showbiz" data-left="#showbiz_left_2" data-right="#showbiz_right_2" data-play="#showbiz_play_2">
-          <div class="overflowholder">
-            <ul>
-              <li>
-                <div class="mediaholder">
-                  <div class="mediaholder_innerwrap"><img src="style/images/art/c1.jpg" alt="" /></div>
-                </div>
-              </li>
-              <li>
-                <div class="mediaholder">
-                  <div class="mediaholder_innerwrap"><img src="style/images/art/c2.jpg" alt="" /></div>
-                </div>
-              </li>
-              <li>
-                <div class="mediaholder">
-                  <div class="mediaholder_innerwrap"><img src="style/images/art/c3.jpg" alt="" /></div>
-                </div>
-              </li>
-              <li>
-                <div class="mediaholder">
-                  <div class="mediaholder_innerwrap"><img src="style/images/art/c4.jpg" alt="" /></div>
-                </div>
-              </li>
-              <li>
-                <div class="mediaholder">
-                  <div class="mediaholder_innerwrap"><img src="style/images/art/c5.jpg" alt="" /></div>
-                </div>
-              </li>
-              <li>
-                <div class="mediaholder">
-                  <div class="mediaholder_innerwrap"><img src="style/images/art/c6.jpg" alt="" /></div>
-                </div>
-              </li>
-              <li>
-                <div class="mediaholder">
-                  <div class="mediaholder_innerwrap"><img src="style/images/art/c7.jpg" alt="" /></div>
-                </div>
-              </li>
-              <li>
-                <div class="mediaholder">
-                  <div class="mediaholder_innerwrap"><img src="style/images/art/c8.jpg" alt="" /></div>
-                </div>
-              </li>
-              <li>
-                <div class="mediaholder">
-                  <div class="mediaholder_innerwrap"><img src="style/images/art/c9.jpg" alt="" /></div>
-                </div>
-              </li>
-              <li>
-                <div class="mediaholder">
-                  <div class="mediaholder_innerwrap"><img src="style/images/art/c10.jpg" alt="" /></div>
-                </div>
-              </li>
-            </ul>
-            <div class="clearfix"></div>
-          </div>
-          <!-- /.overflowholder -->
-          
-          <div class="clearfix"></div>
-        </div>
-        <!-- /.showbiz -->
-        
-        <div class="showbiz-navigation"> <a id="showbiz_left_2" class="sb-navigation-left"></a> <a id="showbiz_play_2" class="sb-navigation-play"></a> <a id="showbiz_right_2" class="sb-navigation-right"></a>
-          <div class="sbclear"></div>
-        </div>
-        <!-- /.showbiz-navigation --> 
-        
-      </div>
-      <!-- /.showbiz-container --> 
-    </div>
-  </div>
-  <footer class="black-wrapper">
-    <div class="container inner">
-      <div class="row">
-        <section class="span4 widget">
-          <h3 class="section-title widget-title">Popular Posts</h3>
-          <ul class="post-list">
-            <li>
-              <h6><a href="blog.html">QR Codes find Traction</a></h6>
-              <em>July 2014</em> </li>
-            <li>
-              <h6><a href="blog.html">Not operational yet</a></h6>
-              <em> 2014</em> </li>
-            <li>
-              <h6><a href="blog.html">Not operational yet</a></h6>
-              <em> 2014</em> </li>
-          </ul>
-          <!-- /.post-list --> 
-        </section>
-        <!-- /.widget -->
-        <section class="span4 widget">
-          <h3 class="section-title widget-title">Site-wide Tags</h3>
-          <div class="tagcloud"> <a href="blog.html" style="font-size: 9pt;">water</a> <a href="blog.html" style="font-size: 19pt;">shortage</a> <a href="blog.html" style="font-size: 9pt;">resources</a> <a href="blog.html" style="font-size: 9pt;">depleted</a> <a href="blog.html" style="font-size: 10pt;">2030</a> <a href="blog.html" style="font-size: 9pt;">commit</a> <a href="blog.html" style="font-size: 12pt;">transparency</a> <a href="blog.html" style="font-size: 9pt;">urgency</a> <a href="blog.html" style="font-size: 20pt;">food security</a> <a href="blog.html" style="font-size: 13pt;">population</a> <a href="blog.html" style="font-size: 16pt;">affordable</a> <a href="blog.html" style="font-size: 9pt;">interoperability</a> <a href="blog.html" style="font-size: 15pt;">improve</a> <a href="blog.html" style="font-size: 9pt;">tv</a> <a href="blog.html" style="font-size: 9pt;">constraints</a> <a href="blog.html" style="font-size: 9pt;">Trial</a> <a href="blog.html" style="font-size: 19pt;">label</a> <a href="blog.html" style="font-size: 9pt;">xCode</a> <a href="blog.html" style="font-size: 9pt;">CSS3</a> <a href="blog.html" style="font-size: 10pt;">fun</a> <a href="blog.html" style="font-size: 9pt;">phonegap</a> <a href="blog.html" style="font-size: 12pt;">push</a> <a href="blog.html" style="font-size: 9pt;">HTML5</a> <a href="blog.html" style="font-size: 20pt;">pull</a> <a href="blog.html" style="font-size: 13pt;">iphone</a> <a href="blog.html" style="font-size: 16pt;">ipad</a> <a href="blog.html" style="font-size: 9pt;">develop</a> <a href="blog.html" style="font-size: 15pt;">marketing</a> <a href="blog.html" style="font-size: 9pt;">strategy</a> <a href="blog.html" style="font-size: 13pt;">food</a> <a href="blog.html" style="font-size: 12pt;">demography</a> <a href="blog.html" style="font-size: 9pt;">mobile</a> <a href="blog.html" style="font-size: 15pt;">agriculture</a> <a href="blog.html" style="font-size: 9pt;">icon</a> <a href="blog.html" style="font-size: 9pt;">coda</a> <a href="blog.html" style="font-size: 20pt;">jquery</a> <a href="blog.html" style="font-size: 9pt;">cms</a> </div>
-        </section>
-        <!-- /.widget -->
-        <section class="span4 widget">
-          <h3 class="section-title widget-title">Get In Touch</h3>
-          <p>Syntagm Research develops Mobile Applications as SYNapps. Hand-coded. Customised. Multiplatform. Enterprise grade.</p>
-          <div class="divide10"></div>
-          <i class="icon-location contact"></i>Stellenbosch<br />
-          <i class="icon-phone contact"></i>082 4567031<br />
-          <i class="icon-mail contact"></i> <a href="first.last@email.com">syntagm@icon.co.za</a> </section>
-        <!-- /.widget --> 
-      </div>
-      <!-- /.row -->
-      
-      <hr />
-      <p class="pull-left">© 2013 SynApps. All rights reserved. Theme by <a href="http://elemisfreebies.com">elemis</a>.</p>
-      <ul class="social pull-right">
-        <li><a href="#"><i class="icon-s-rss"></i></a></li>
-        <li><a href="#"><i class="icon-s-twitter"></i></a></li>
-        <li><a href="#"><i class="icon-s-facebook"></i></a></li>
-        <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
-        <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-      </ul>
-    </div>
-    <!-- .container --> 
-  </footer>
-  <!-- /footer --> 
+<p>Masahiro Hara, the inventor of the QR Code has been nominated for the 2014 European Patent Office (EPO) award in the Non-European countries category (video below).</p>
+<p>As well as receiving around 150,000 patent applications every year the EPO holds an annual European Inventor Award competition. Anyone can nominate an inventor but the winners are chosen by EPO experts and an independent international jury. They evaluate innovations not only on their technological originality but also on their economic and social impact. </p>
+<p>Prizes are awarded in various categories but there is one &#8216;Popular Prize&#8217; chosen by the public from all the shortlisted finalists. This year the award ceremony will be held in Berlin, Germany, on 17 June and you can vote for Masahiro Hara and his colleagues in the &#8216;Popular Prize&#8217; category <a href="http://www.epo.org/learning-events/european-inventor/popular-prize.html " onclick="pageTracker._trackPageview('/outgoing/www.epo.org/learning-events/european-inventor/popular-prize.html?referer=http://2d-code.co.uk/');">here</a> (closing date 10 June).</p>
+<p><iframe width="640" height="360" src="//www.youtube.com/embed/ZLhoBWlrTtw?list=PLgDlswd0__eLDGpzvK5RFDxe9wAM9t08n" frameborder="0" allowfullscreen></iframe></p>
+                <div class="divider"></div>
+                </p><p>Apples originating from the Aomori Prefecture in Japan will each have an individual QR Code from next year, even if they are harvested from the same tree (image below). Aomori apples are famous for their flavor and size and 90% of them are exported. The QR Code resolves to a mobile site where the consumer can view information on the farmer, soil, pesticides used etc., in Japanese, Chinese and English. The QR Code system will allow the prefectural government and apple growers to follow the distribution routes of the exported apples. </p>
+<div><img src="http://2d-code.co.uk/images/aomori-apple-qr-codes.jpg" alt="How the QR Codes might look" /></div>
 </div>
-<!--/.body-wrapper--> 
-<script src="style/js/jquery.js"></script> 
-<script src="style/js/bootstrap.min.js"></script> 
-<script src="style/js/twitter-bootstrap-hover-dropdown.min.js"></script> 
-<script src="style/js/jquery.themepunch.plugins.min.js"></script> 
-<script src="style/js/jquery.themepunch.revolution.min.js"></script> 
-<script src="style/js/jquery.themepunch.showbizpro.min.js"></script> 
-<script src="style/js/jquery.isotope.min.js"></script> 
-<script src="style/js/jquery.hoverdir.min.js"></script> 
-<script src="style/js/jquery.slickforms.js"></script> 
-<script src="style/js/jquery.easytabs.min.js"></script> 
-<script src="style/js/jquery.fitvids.js"></script> 
-<script src="style/js/view.min.js?auto"></script> 
-<script src="style/js/scripts.js"></script>
-<!-- Place this tag after the last widget tag. -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.syntagm.co.za/piwik/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 4]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="http://www.syntagm.co.za/piwik/piwik.php?idsite=4" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+<div class="divider"></div>
+<h2 >QR Code &#8216;Video Stamp&#8217;</h2>
 
-
-
+<p>The world&#8217;s first &#8216;video stamp&#8217; which will let consumers send a fifteen second video with their Christmas parcels has been released by Australia Post. Senders scan a QR Code on the stamp with their iPhone or Android device and record their message via the Australia Post app. They then affix the stamp to their parcel and the recipient will be able to view the message by scanning the QR Code with any scanner app. The stamps which will be available from next Monday are free with Australia Post&#8217;s Express Post and Express Courier International products. In anticipation of a successful campaign they have printed several million stamps each with a unique QR Code. </p>
+<p><iframe width="640" height="360" src="//www.youtube.com/embed/Iy_JbMPxeKc?rel=0" frameborder="0" allowfullscreen></iframe></p>
+                
+			</div>
+			</div>
+			
+		</div>
+	</section>
+	<!--Experience Section-->
+	<!--Portfolio Section-->
+	<section class="portfolio section" id="portfolio">
+		<div class="container">
+			<div class="divider"></div>
+			<div class="heading">
+				<h2>PORTFOLIO</h2>
+			</div>
+			<div class="filter row">
+				<ul id="filters">
+					<!--Portfolio Filters-->
+					<li><a href="#" data-filter="*" class="current">ALL</a></li>
+					<li><a href="#" data-filter=".photos">PHOTOS</a></li>
+					<li><a href="#" data-filter=".branding">BRANDING</a></li>
+					<li><a href="#" data-filter=".illustration">ILLUSTRATION</a></li>
+					<!--Portfolio Filters-->
+				</ul>
+			</div>
+			<div class="items">
+				<ul class="row portfolio-items">
+					<!--Portfolio Items-->
+					<li class="photos col-xs-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+						<div class="item">
+							<img src="images/portfolio/thumb/1.jpg" alt="">
+							<div class="icons">
+								<a href="images/portfolio/1.jpg" data-gallery="portfolio" title="Caption" class="fullwidth"><i class="glyphicon glyphicon-search"></i></a>
+								<a href="" class="projectlink" target="_blank"><i class="glyphicon glyphicon-link"></i></a>
+							</div>
+							<div class="mask"></div>
+						</div>
+					</li>
+					<li class="branding col-xs-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+						<div class="item">
+							<img src="images/portfolio/thumb/2.jpg" alt="">
+							<div class="icons">
+								<a href="images/portfolio/2.jpg" data-gallery="portfolio" title="Caption" class="fullwidth"><i class="glyphicon glyphicon-search"></i></a>
+								<a href="" class="projectlink" target="_blank"><i class="glyphicon glyphicon-link"></i></a>
+							</div>
+							<div class="mask"></div>
+						</div>
+					</li>
+					<li class="illustration col-xs-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+						<div class="item">
+							<img src="images/portfolio/thumb/3.jpg" alt="">
+							<div class="icons">
+								<a href="images/portfolio/3.jpg" data-gallery="portfolio" title="Caption" class="fullwidth"><i class="glyphicon glyphicon-search"></i></a>
+								<a href="" class="projectlink" target="_blank"><i class="glyphicon glyphicon-link"></i></a>
+							</div>
+							<div class="mask"></div>
+						</div>
+					</li>
+					<li class="illustration col-xs-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+						<div class="item">
+							<img src="images/portfolio/thumb/4.jpg" alt="">
+							<div class="icons">
+								<a href="images/portfolio/4.jpg" data-gallery="portfolio" title="Caption" class="fullwidth"><i class="glyphicon glyphicon-search"></i></a>
+								<a href="" class="projectlink" target="_blank"><i class="glyphicon glyphicon-link"></i></a>
+							</div>
+							<div class="mask"></div>
+						</div>
+					</li>
+					<li class="illustration col-xs-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+						<div class="item">
+							<img src="images/portfolio/thumb/5.jpg" alt="">
+							<div class="icons">
+								<a href="images/portfolio/5.jpg" data-gallery="portfolio" title="Caption" class="fullwidth"><i class="glyphicon glyphicon-search"></i></a>
+								<a href="" class="projectlink" target="_blank"><i class="glyphicon glyphicon-link"></i></a>
+							</div>
+							<div class="mask"></div>
+						</div>
+					</li>
+					<li class="photos col-xs-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+						<div class="item">
+							<img src="images/portfolio/thumb/6.jpg" alt="">
+							<div class="icons">
+								<a href="images/portfolio/6.jpg" data-gallery="portfolio" title="Caption" class="fullwidth"><i class="glyphicon glyphicon-search"></i></a>
+								<a href="" class="projectlink" target="_blank"><i class="glyphicon glyphicon-link"></i></a>
+							</div>
+							<div class="mask"></div>
+						</div>
+					</li>
+					<li class="photos col-xs-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+						<div class="item">
+							<img src="images/portfolio/thumb/7.jpg" alt="">
+							<div class="icons">
+								<a href="images/portfolio/7.jpg" data-gallery="portfolio" title="Caption" class="fullwidth"><i class="glyphicon glyphicon-search"></i></a>
+								<a href="" class="projectlink" target="_blank"><i class="glyphicon glyphicon-link"></i></a>
+							</div>
+							<div class="mask"></div>
+						</div>
+					</li>
+					<li class="photos col-xs-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+						<div class="item">
+							<img src="images/portfolio/thumb/8.jpg" alt="">
+							<div class="icons">
+								<a href="images/portfolio/8.jpg" data-gallery="portfolio" title="Caption" class="fullwidth"><i class="glyphicon glyphicon-search"></i></a>
+								<a href="" class="projectlink" target="_blank"><i class="glyphicon glyphicon-link"></i></a>
+							</div>
+							<div class="mask"></div>
+						</div>
+					</li>
+					<!--Portfolio Items-->
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!--Portfolio Section-->
+	<!--Contact Section-->
+	<section class="contact section" id="contact">
+		<div class="container">
+			<div class="divider"></div>
+			<div class="heading">
+				<h2>SHOOT A MESSAGE</h2>
+			</div>
+			<div class="form">
+				<div class="col-xs-12 col-sm-9 col-md-9 centered">
+					<form action="send.php" onSubmit="return false;" id="xhr" method="post" name="contactform" class="contactform">
+						<input type="hidden" value="contact" name="type">
+						<input name="send[name]" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name..." data-validation="required">
+						<input name="send[email]" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 no-margin" placeholder="Your email..." data-validation="email">
+						<textarea name="send[message]" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..." data-validation="required"></textarea>
+						<p><button class="submit sendcontact">SEND MESSAGE</button></p>
+					</form>
+					<p class="error"></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Contact Section-->
+	<div id="map"></div>
+	<div class="clear"></div>
+	<!--Footer Section-->
+	<footer class="section">
+		<div class="container">
+			<p>&copy; 2014 website.com. All Rights Reserved.</p>
+			<ul>
+				<li><a target="_blank" class="facebook" href="http://www.facebook.com/"></a></li>
+				<li><a target="_blank" class="twitter" href="http://www.twitter.com/"></a></li>
+				<li><a target="_blank" class="google" href="https://plus.google.com/"></a></li>
+				<li><a target="_blank" class="linkedin" href="http://www.linkedin.com/"></a></li>
+				<li><a target="_blank" class="instagram" href="http://www.instagram.com/"></a></li>
+				<li><a target="_blank" class="youtube" href="https://www.youtube.com/"></a></li>
+				<li><a target="_blank" class="vimeo" href="http://www.vimeo.com/"></a></li>
+				<li><a target="_blank" class="tumblr" href="http://www.tumblr.com/"></a></li>
+				<li><a target="_blank" class="dribbble" href="http://www.dribbble.com/"></a></li>
+				<li><a target="_blank" class="behance" href="https://www.behance.net/"></a></li>
+				<li><a target="_blank" class="flickr" href="https://www.flickr.com/"></a></li>
+			</ul>
+		</div>
+	</footer>
+	<!--Footer Section-->
+<!--Scripts-->	
+	<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="js/jquery.easypiechart.min.js" type="text/javascript"></script>
+	<script src="js/isotope.pkgd.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.fs.boxer.min.js" type="text/javascript"></script>
+	<script src="js/jquery.form-validator.min.js" type="text/javascript"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+	<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+	<script src="js/jquery.superslides.min.js" type="text/javascript"></script>
+	<script src="js/jquery.inview.min.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+<!--Scripts-->
 </body>
 </html>

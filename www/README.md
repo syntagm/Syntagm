@@ -1,4 +1,0 @@
-Syntagm
-=======
-
-Home repo
