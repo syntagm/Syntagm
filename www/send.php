@@ -32,7 +32,7 @@
 	
 	$mail->SetFrom('no-reply@website.com', 'Website Name');
 
-	$mail->AddAddress('yourmail@address.com');
+	$mail->AddAddress('syntagm@icon.co.za');
 	
 	extract($_POST['send']);
 
