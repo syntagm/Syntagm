@@ -24,15 +24,15 @@
 	$mail->SMTPAuth   	= true;
 	$mail->Host       	= 'smtp.mandrillapp.com';
 	$mail->Port       	= 587;
-	$mail->Username   	= 'mandrill@username.com';
-	$mail->Password   	= 'mandrillApiKey';
-	$mail->Subject    	= 'New '.$formTypes[$_POST['type']]. ' Message from Website Name';
+	$mail->Username   	= 'syntagmresearch@gmail.com';
+	$mail->Password   	= 'jcu1Vs5WdKRY6TIA04bsOA';
+	$mail->Subject    	= 'New '.$formTypes[$_POST['type']]. ' Message from SYNapps';
 	$mail->CharSet		= 'utf-8';
 	$mail->WordWrap 	= 50;
 	
-	$mail->SetFrom('no-reply@website.com', 'Website Name');
+	$mail->SetFrom('no-reply@syntagm.co.za', 'SYNapps');
 
-	$mail->AddAddress('syntagm@icon.co.za');
+	$mail->AddAddress('syntagmresearch@gmail.com');
 	
 	extract($_POST['send']);
 

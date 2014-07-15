@@ -248,7 +248,11 @@ footer .tumblr:hover { background-color: #4d7Da1; }
 footer .linkedin { background: url(../images/linkedin.png) center no-repeat #444749; }
 footer .linkedin:hover { background-color: #0073b2; }
 
-img { max-width: 100%; height: auto; }
+img {
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+}
 
 .clear { clear: both; }
 
